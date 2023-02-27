@@ -6,8 +6,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Routes {
-  static Route? onGenerateRoute(RouteSettings routeSettings) {
-    switch (routeSettings.name) {
+
+
+
+
+    static Route? onGenerateRoute(RouteSettings routeSettings) {
+    switch(routeSettings.name) {
+
+
+
       case SignUpScreen.routeName:
         return MaterialPageRoute(
             settings: routeSettings, builder: (_) => SignUpScreen());
